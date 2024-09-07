@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questões 1 e 2</title>
+    <style>
+        *,
+        html {
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+
+        html,
+        body {
+            min-height: 100%;
+            line-height: 1;
+        }
+
+        body {
+            background-color: aliceblue;
+            font-family: sans-serif;
+            font-size: 13px;
+            font-weight: 400;
+        }
+
+        header {
+            background-color: #ff8c00;
+            height: 40px;
+            padding: 10px;
+            border-bottom: 1px solid #4f4f4f;
+            text-align: center;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            min-height: calc(100vh - 140px);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        aside {
+            background-color: #3567e4;
+            width: calc(30% - 40px);
+            padding: 20px;
+            border-right: 1px solid #e2e2e2;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: start;
+        }
+
+        aside > div {
+            background-color: #ffffff;
+            width: calc(100% - 20px);
+            padding: 10px;
+            border-bottom: 1px solid #e2e2e2;
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            align-items: center;
+            gap: 10px;
+        }
+
+        aside div img {
+            width: 90px;
+            border-radius: 90px;
+        }
+
+        aside div h3 {
+            text-align: left;
+            font-size: 22px;
+            line-height: 26px;
+            color: #333;
+        }
+
+        aside div p {
+            text-align: left;
+            font-size: 18px;
+            line-height: 22px;
+            color: #686868;
+        }
+
+        section {
+            background-color: #ffe4c4;
+            width: calc(70% - 40px);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: flex-start;
+            gap: 20px;
+        }
+
+        section article {
+            background-color: #ffffff;
+            width: calc(100% - 40px);
+            padding: 20px;
+            text-align: center;
+            border: 1px solid #e2e2e2;
+            box-shadow: 0 2px 4px rgba(66, 66, 66, 0.4);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: start;
+            gap: 15px;
+        }        
+
+        section p {
+            font-size: 15px;
+            text-align: justify;
+            line-height: 120%;
+            word-wrap: break-word;
+        }
+
+        footer {
+            background-color: #252525;
+            height: 60px;
+            padding: 10px;
+            text-align: center;
+            color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cabeçalho</h1>
+    </header>
+    <main>
+        <aside>
+            <div>
+                <img src="https://picsum.photos/300/300?random=1">
+                <div>
+                    <h3>Linda Hart</h3>
+                    <p>6765 Shady Ln Dr</p>
+                </div>                    
+            </div>
+            <div>
+                <img src="https://picsum.photos/300/300?random=2">
+                <div>
+                    <h3>Roger Medina</h3>
+                    <p>2024 Paddock Way</p>
+                </div>                    
+            </div>
+            <div>
+                <img src="https://picsum.photos/300/300?random=3">
+                <div>
+                    <h3>Dean Sullivan</h3>
+                    <p>6727 Airplane Ave</p>
+                </div>                    
+            </div>
+            <div>
+                <img src="https://picsum.photos/300/300?random=4">
+                <div>
+                    <h3>Elizabeth Austin</h3>
+                    <p>6685 Blossom Hill Rd</p>
+                </div>                    
+            </div>
+        </aside>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>           
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam consectetur finibus dui et laoreet. Phasellus eu dapibus sem. In hac habitasse platea dictumst. Curabitur nisl lorem, mattis nec pretium eget, aliquet sit amet odio. Nam porta rhoncus ligula eget accumsan. Aenean non tincidunt ex. Nulla luctus arcu ac tellus pulvinar venenatis. Vestibulum egestas ex vitae ligula sagittis, at condimentum magna euismod. Integer in ante sit amet leo semper commodo et ut purus. Donec tincidunt finibus porttitor. Donec euismod lacinia lectus. Suspendisse rutrum, metus vel porta gravida, velit ex laoreet justo, tempor tristique dolor purus at lacus. Nam venenatis sem mauris, et volutpat sem elementum vel. Fusce mattis elit turpis, non dapibus velit hendrerit a. Quisque elit purus, consectetur et ligula at, cursus aliquet dolor. Praesent ac purus ac metus blandit accumsan vel quis tellus. Nullam sit amet lobortis velit, a porta odio. Nulla dictum eget lorem sed maximus. Nulla facilisi. Maecenas elit dolor, malesuada non felis in, gravida iaculis eros. Maecenas sed purus quis massa condimentum suscipit. Sed elementum dui vitae ante ullamcorper, vitae fringilla dolor luctus.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <span>Footer</span>
+    </footer>
+</body>
+
+</html>

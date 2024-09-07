@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Navegação e Caixas de Texto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            height: calc(100dvh - 40px);
+            border: 1px solid #333333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .grid-container {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto;
+            align-items: center;
+            gap: 20px;
+        }
+        .item {
+            background-color: aliceblue;
+            height: 350px;
+            border: 1px solid #333333;
+            padding: 20px;
+        }
+        
+        .cent {
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>    
+    <section class="grid-container">
+        <div class="item"></div>
+        <div class="item cent"></div>
+        <div class="item"></div>
+    </section>
+</body>
+</html>
