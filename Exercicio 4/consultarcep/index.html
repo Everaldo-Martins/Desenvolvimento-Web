@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Consultar CEP</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container-cep">
+            <h1>Consultar CEP</h1>
+            <input type="text" id="cepInput" placeholder="Digite o CEP" maxlength="10" oninput="mascararCEP(this)" />
+            <button onclick="consultarCEP()"><i class="fa-solid fa-right-to-bracket"></i>Consultar</button>
+            <div id="resultado" class="resultado"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
