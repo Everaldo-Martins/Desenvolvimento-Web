@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Dragon Ball Z",
+        "initials": "DBZ",
+        "release": 1989,
+        "creator": "Akira Toriyama"
+    },
+    {
+        "id": 2,
+        "name": "Naruto",
+        "initials": "NRT",
+        "release": 2002,
+        "creator": "Masashi Kishimoto"
+    },
+    {
+        "id": 3,
+        "name": "One Piece",
+        "initials": "OP",
+        "release": 1999,
+        "creator": "Eiichiro Oda"
+    },
+    {
+        "id": 4,
+        "name": "Attack on Titan",
+        "initials": "AOT",
+        "release": 2013,
+        "creator": "Hajime Isayama"
+    },
+    {
+        "id": 5,
+        "name": "Boruto",
+        "initials": "BRT",
+        "release": 2017,
+        "creator": "Masashi Kishimoto, Ukyō Kodachi"
+    }
+]
