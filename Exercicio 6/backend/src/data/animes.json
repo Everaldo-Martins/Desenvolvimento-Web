@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Dragon Ball Z",
+        "initials": "DBZ",
+        "release": 1989,
+        "creator": "Akira Toriyama",
+        "img": "dbz.jpg",
+        "wikipedia": "https://pt.wikipedia.org/wiki/Dragon_Ball_(s%C3%A9rie)"
+    },
+    {
+        "id": 2,
+        "name": "Naruto",
+        "initials": "NRT",
+        "release": 2002,
+        "creator": "Masashi Kishimoto",
+        "img": "naruto.jpg",
+        "wikipedia": "https://pt.wikipedia.org/wiki/Naruto"
+    },
+    {
+        "id": 3,
+        "name": "One Piece",
+        "initials": "OP",
+        "release": 1999,
+        "creator": "Eiichiro Oda",
+        "img": "one-piece.jpg",
+        "wikipedia": "https://pt.wikipedia.org/wiki/One_Piece"
+    },
+    {
+        "id": 4,
+        "name": "Attack on Titan",
+        "initials": "AOT",
+        "release": 2013,
+        "creator": "Hajime Isayama",
+        "img": "attack-on-titan.jpg",
+        "wikipedia": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin"
+    },
+    {
+        "id": 5,
+        "name": "Boruto",
+        "initials": "BRT",
+        "release": 2017,
+        "creator": "Masashi Kishimoto, Ukyō Kodachi",
+        "img": "boruto.jpg",
+        "wikipedia": "https://pt.wikipedia.org/wiki/Boruto:_Naruto_Next_Generations"
+    }
+]
